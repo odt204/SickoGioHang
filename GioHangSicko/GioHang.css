@@ -1,0 +1,115 @@
+﻿.main {
+    width: 1000px;
+   
+}
+.khung-gio-hang{
+    width:1000px;;
+  margin:auto;
+}
+
+.product {
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+    font-weight: 500;
+    border-color: #eee;
+    padding: 10px 0;
+    width:100%;
+}
+.img-prod img{
+    
+}
+.left-prod{
+    width:70%;
+    float:left;
+}
+.right-prod{
+    width:30%;
+    float:right;
+}
+
+ .xoa-btn{
+     cursor:pointer;
+     
+ }
+    .xoa-btn svg {
+        width: 40px;
+        height: 30px;
+    }
+.ttspham {
+    display: table-cell;
+    width: 200px;
+    
+}
+
+.total{
+    
+    font-weight:bolder;
+    padding:10px;
+    
+    height:40px;
+   
+}
+.thanhtoan {
+    background: #fafafa;
+    color: #333;
+    font-size: 16px;
+    padding: 25px;
+    border-top: 1px solid #eee;
+}
+.thanhtoan button{
+    text-align:center;
+    padding:10px;
+    
+}
+.note{
+    width:100%;
+    height:100px;
+    padding:10px;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+}
+
+#buy-amount {
+    display: flex;
+}
+
+    #buy-amount button {
+        width: 35px;
+        height: 35px;
+        outline: none;
+        background: none;
+        border: 1px solid #ececec;
+        cursor: pointer;
+    }
+
+        #buy-amount button:hover {
+            background-color: #ececec;
+        }
+
+        #buy-amount button svg {
+            color: #909090;
+        }
+
+        #buy-amount button:hover svg {
+            color: #4f4f4f
+        }
+
+    #buy-amount #amount {
+        width: 40px;
+        text-align: center;
+        border: 1px solid #ececec;
+    }
+
+.dg{
+    width: 100px;
+    border: none;
+    inline-size:none;
+
+}
